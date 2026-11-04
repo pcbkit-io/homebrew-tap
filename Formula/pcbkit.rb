@@ -2,27 +2,27 @@
 class Pcbkit < Formula
   desc "Route, check, render and export circuit boards (KiCad, Altium, Eagle, EasyEDA)"
   homepage "https://github.com/pcbkit-io/cli"
-  version "2026.11.4"
+  version "2026.11.4.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4/pcbkit-aarch64-apple-darwin.tar.gz"
-      sha256 "b2cd19b1ae2c11201d9d4f7cc5991b535bac923f31991c154ee09a5815f7545f"
+      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4.2/pcbkit-aarch64-apple-darwin.tar.gz"
+      sha256 "ea806b65890d928da3d658dc38cfa366745d5312c1066321518edacea1cc6f87"
     end
     on_intel do
-      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4/pcbkit-x86_64-apple-darwin.tar.gz"
-      sha256 "77a34597217981a1b7013fa64629664aeb6c22a8cba995c3d58c1f4f6e18b112"
+      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4.2/pcbkit-x86_64-apple-darwin.tar.gz"
+      sha256 "de0312afe4b2c3d37c4318e2614e5002894225ada17a29b6f583f313653c5a08"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4/pcbkit-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6694c047180ba7544b5dc2a001ad0e11088de60308156530d54c1d77151cb34f"
+      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4.2/pcbkit-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "edbbf8c7a1e0f71147fcf2f61c3c1c22a915c77433bbcc058943c5babcdb5a91"
     end
     on_intel do
-      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4/pcbkit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d1167b3b9f5f5ace5fa6d8c22d8c169e7662b229576f8404495daae192c2392a"
+      url "https://github.com/pcbkit-io/cli/releases/download/v2026.11.4.2/pcbkit-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f5e150cac3f60e0d25bc8811b621e0d6ff5a21d9fd3213ca77322e0b4123c613"
     end
   end
 
